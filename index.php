@@ -70,7 +70,7 @@
           </div>
         </nav>
     </header>
-
+ <!-- comienzo portada  -->
 
     <div class="container-fluid banner">
         <div class="container">

@@ -5,20 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preload" href="https://solarysustentablechile.cl/img/logonav.png" as="image">
+    <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" as="script">
+    <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" as="style">
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
     <link rel="stylesheet" href="/style.css">
     <style>
-      body{
-        background-color: #000;
-      }
+ 
     #accordionExample {
       position: sticky;
-      top: 80px; /* Ajusta este valor según sea necesario */
+      top: 80px; 
     }   
 
+    
     </style>
   </style>
    </head>
   <body>
+
 
     <header>
         <nav class="navbar navbar-expand-lg fixed-top bg-dark" >
@@ -90,71 +98,67 @@
         </div>
     </div>
 
-  <div class="container-fluid bg-blue">
-    <div class="container py-5">
-        <div class="row">
-            <div class="pb-5 text-center text-white">
-                <h2>No dude en conocer más sobre nosotros</h2>
-            </div>
-            <div class="col-7 text-white py-5">
-                <h3 class="py-4">Beneficios de implementar Paneles solares.</h3>
-                <ol>
-                    <li class="pt-3" >Disminuye hasta un 100% el consumo de electricidad pagada.</li>
-                    <li class="pt-3">Rentabiliza tus gastos operativos.</li>
-                    <li class="pt-3">Paga las cuotas del financiamiento con el ahorro de tu cuenta de luz.</li>
-                </ol>
-            </div>
-            <div class="col-md-5">
-              <div class="bg-light p-3 rounded shadow"> 
-                <form action="procesar_formulario.php" method="POST">
-                    <div class="row mb-3">
-                        <div class="text-center mb-3">
-                            <h3>Contáctanos</h3>
-                        </div>
-                        <div class="col">
-                            <label for="inputNombre" class="form-label">Nombre</label>
-                            <input type="text" class="form-control input-custom" id="inputNombre" name="inputNombre" placeholder="Nombre" required>
-                        </div>
-                        <div class="col">
-                            <label for="inputApellido" class="form-label">Apellido</label>
-                            <input type="text" class="form-control input-custom" id="inputApellido" name="inputApellido" placeholder="Apellido" required>
-                        </div>
+    <div class="container-fluid bg-blue">
+        <div class="container py-5">
+            <div class="row">
+                <div class=" py-md-5 text-center text-white" data-aos="fade-up">
+                    <h2>No dude en conocer más sobre nosotros</h2>
+                </div>
+                <div class="col-12 col-md-7 text-white py-5" data-aos="fade-right">
+                    <h3 class="py-4">Beneficios de implementar Paneles solares.</h3>
+                    <ol>
+                        <li class="pt-3">Disminuye hasta un 100% el consumo de electricidad pagada.</li>
+                        <li class="pt-3">Rentabiliza tus gastos operativos.</li>
+                        <li class="pt-3">Paga las cuotas del financiamiento con el ahorro de tu cuenta de luz.</li>
+                    </ol>
+                </div>
+                <div class="col-12 col-md-5" data-aos="fade-left">
+                    <div class="bg-light p-3 rounded shadow">
+                        <form action="procesar_formulario.php" method="POST">
+                            <div class="row mb-3">
+                                <div class="text-center mb-3">
+                                    <h3>Contáctanos</h3>
+                                </div>
+                                <div class="col">
+                                    <label for="inputNombre" class="form-label">Nombre</label>
+                                    <input type="text" class="form-control input-custom" id="inputNombre" name="inputNombre" placeholder="Nombre" required>
+                                </div>
+                                <div class="col">
+                                    <label for="inputApellido" class="form-label">Apellido</label>
+                                    <input type="text" class="form-control input-custom" id="inputApellido" name="inputApellido" placeholder="Apellido" required>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col">
+                                    <label for="inputEmail" class="form-label">Email</label>
+                                    <input type="email" class="form-control input-custom" id="inputEmail" name="inputEmail" placeholder="name@example.com" required>
+                                </div>
+                                <div class="col">
+                                    <label for="inputNumero" class="form-label">Número de Contacto</label>
+                                    <input type="tel" class="form-control input-custom" id="inputNumero" name="inputNumero" placeholder="Número de Contacto" required>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="inputUbicacion" class="form-label">Ubicación</label>
+                                <input type="text" class="form-control input-custom" id="inputUbicacion" name="inputUbicacion" placeholder="Ubicación" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleFormControlTextarea1" class="form-label">Comentarios</label>
+                                <textarea class="form-control input-custom" id="exampleFormControlTextarea1" name="exampleFormControlTextarea1" rows="2" required></textarea>
+                            </div>
+                            <div class="text-center">
+                                <button type="submit" class="btn btn-custom">Enviar</button>
+                            </div>
+                        </form>
                     </div>
-                    <div class="row mb-3">
-                        <div class="col">
-                            <label for="inputEmail" class="form-label">Email</label>
-                            <input type="email" class="form-control input-custom" id="inputEmail" name="inputEmail" placeholder="name@example.com" required>
-                        </div>
-                        <div class="col">
-                            <label for="inputNumero" class="form-label">Número de Contacto</label>
-                            <input type="tel" class="form-control input-custom" id="inputNumero" name="inputNumero" placeholder="Número de Contacto" required>
-                        </div>
-                    </div>
-                    <div class="mb-3">
-                        <label for="inputUbicacion" class="form-label">Ubicación</label>
-                        <input type="text" class="form-control input-custom" id="inputUbicacion" name="inputUbicacion" placeholder="Ubicación" required>
-                    </div>
-            
-                    <div class="mb-3">
-                        <label for="exampleFormControlTextarea1" class="form-label">Comentarios</label>
-                        <textarea class="form-control input-custom" id="exampleFormControlTextarea1" name="exampleFormControlTextarea1" rows="2" required></textarea>
-                    </div>
-            
-                    <div class="text-center">
-                        <button type="submit" class="btn btn-custom">Enviar</button>
-                    </div>
-                </form>
-              
-            
+                </div>
             </div>
         </div>
-
     </div>
-  </div>
-  </div>  
+ 
 
 
-  <div class="container-fluid p-5 bg-white">
+  <div class="container-fluid p-5 ">
     <div class="container p-md-5">
       <div class="row pb-5">
         <div class="col-md-12 col-lg-5">
@@ -339,36 +343,38 @@
         <div class="col-md-4 pt-3 mb-3">
           <h5>NOSOTROS</h5>
           <ul class="list-unstyled">
-            <li><i class="fas h4 fa-map-marker-alt"></i> Dirección: Valparaiso, Viña Del Mar Chile            </li>
-            <li><i class="fas h4 fa-phone"></i> Teléfono: +569 51906473            </li>
-            <li><i class="fas h4 fa-envelope"></i> Email: solarysustentable.91@gmail.com            </li>
+            <li><i class="fas h4 "></i> Dirección: Valparaiso, Viña Del Mar Chile            </li>
+            <li><i class="fas h4 "></i> Teléfono: +569 51906473            </li>
+            <li><i class="fas h4 "></i> Email: solarysustentable.91@gmail.com            </li>
           </ul>
-          <div class="mt-3">
-            <a href="#" class="text-white mr-3"><i class="fab fa-facebook-f"></i></a>
-            <a href="#" class="text-white mr-3"><i class="fab fa-instagram"></i></a>
-            <a href="#" class="text-white"><i class="fab fa-whatsapp"></i></a>
-          </div>
+          
         </div>
       </div>
       <div class="row">
         <div class="col-12 text-center">
           <p>&copy; 2024 solarysustentablechile. Todos los derechos reservados.</p>
           <div class="d-flex justify-content-center mt-3">
-            <img src="https://via.placeholder.com/150" alt="Facebook" class="mx-2" style="width: 30px; height: 30px;">
-            <img src="https://via.placeholder.com/150" alt="Instagram" class="mx-2" style="width: 30px; height: 30px;">
-            <img src="https://via.placeholder.com/150" alt="WhatsApp" class="mx-2" style="width: 30px; height: 30px;">
+            <img src="https://solarysustentablechile.cl/img/face.png" alt="Facebook" class="mx-2" style="width: 20px; height: 30px;">
+            <img src="https://solarysustentablechile.cl/img/int.png" alt="Instagram" class="mx-2" style="width: 30px; height: 30px;">
+            <img src="https://solarysustentablechile.cl/img/wt.png" alt="WhatsApp" class="mx-2" style="width: 30px; height: 30px;">
           </div>
         </div>
       </div>
     </div>
   </footer>
 
+  <!-- WhatsApp Icon Floating -->
+<a href="https://wa.me/tu-numero?text=Hola" class="whatsapp-float" target="_blank">
+    <i class="fa fa-whatsapp my-float"></i>
+</a>
+
     
 <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
 
 
-<script>
+  <script>
+
 //logo slider
 
 $('.logos-slider').slick({
@@ -394,9 +400,12 @@ slidesToShow: 2
 
 </script>
 
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script>
+    AOS.init();
+</script>
+
   </body>
 </html>
 

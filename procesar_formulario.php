@@ -1,5 +1,4 @@
 <?php
-// Definir las variables de conexión a la base de datos
 $usuario  = "root";
 $password = "";
 $servidor = "localhost";
@@ -23,23 +22,26 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $ubicacion = $_POST['inputUbicacion'];
     $comentarios = $_POST['exampleFormControlTextarea1'];
 
-    // Insertar datos en la base de datos
+    // Preparar la consulta
     $stmt = $conn->prepare("INSERT INTO contactos (nombre, apellido, email, numero_contacto, ubicacion, comentarios) VALUES (?, ?, ?, ?, ?, ?)");
+    
+    if ($stmt === false) {
+        die('Error al preparar la consulta: ' . $conn->error);
+    }
+
     $stmt->bind_param("ssssss", $nombre, $apellido, $email, $numero_contacto, $ubicacion, $comentarios);
 
-    if ($stmt->execute()) {
-        echo "<p>Datos guardados correctamente</p>";
+    if ($stmt->execute() === false) {
+        die('Error al ejecutar la consulta: ' . $stmt->error);
     } else {
-        echo "<p>Error: " . $stmt->error . "</p>";
+        echo "Datos insertados correctamente.";
     }
 
     $stmt->close();
+
+    header('Location: thanks.php');
+    exit();
 }
 
-
-header('Location: thanks.php');
-
-
-// Cerrar conexión
 $conn->close();
 ?>

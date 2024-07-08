@@ -39,33 +39,25 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                <li class="nav-item dropdown px-3">
-                  <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown"
-                    aria-expanded="false">
-                    Inicio
-                  </a>
+
+                <li class="nav-item px-3">
+                    <a class="nav-link" href="index.php" role="button" aria-expanded="false">
+                        Inicio
+                    </a>
                 </li>
-                <li class="nav-item dropdown px-3">
-                  <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown"
-                    aria-expanded="false">
-                    Kit Solares
-                  </a>
-                  
+                <li class="nav-item px-3">
+                    <a class="nav-link" href="kit-solares.php" role="button" aria-expanded="false">
+                        Kit Solares
+                    </a>
                 </li>
-                <li class="nav-item dropdown px-3">
-                  <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown"
-                    aria-expanded="false">
-                    Empresas
-                  </a>
-                  
+
+
+                <li class="nav-item px-3">
+                    <a class="nav-link" href="empresa.php" role="button" aria-expanded="false">
+                        Empresa
+                    </a>
                 </li>
-                <li class="nav-item dropdown px-3">
-                  <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown"
-                    aria-expanded="false">
-                    Hogar
-                  </a>
-                  
-                </li>
+
                 <li class="nav-item dropdown px-3 ">
                     <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown"
                       aria-expanded="false">
@@ -157,8 +149,7 @@
     </div>
  
 
-
-  <div class="container-fluid p-5 ">
+  <div class="container-fluid px-5 pb-5">
     <div class="container p-md-5">
       <div class="row pb-5">
         <div class="col-md-12 col-lg-5">

@@ -196,4 +196,16 @@ body{
   
 
 
-  
+.bg-cards{
+  background-color: #eaeaea;
+}
+
+.text-yelow{
+  color: #e2bd20;
+}
+
+.bg-section {
+  background-color: #999;
+  padding: 50px;
+  border-radius: 15px; 
+}

@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Solar</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="preload" href="https://solarysustentablechile.cl/img/logonav.png" as="image">
     <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" as="script">
@@ -149,117 +149,100 @@
     </div>
  
 
-  <div class="container-fluid px-5 pb-5">
+    <div class="container-fluid px-5 pb-5">
     <div class="container p-md-5">
-      <div class="row pb-5">
-        <div class="col-md-12 col-lg-5">
-        <div class="accordion pt-4" id="accordionExample">
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingOne">
-            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-              Energía Solar Hogar
-
-            </button>
-          </h2>
-          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-              <p>En un mundo que valora la sostenibilidad y la eficiencia energética, es hora de que tu hogar se una a la revolución solar. La energía solar no solo es amigable con el medio ambiente, sino que también te permite ahorrar dinero a largo plazo.</p>
-              <div class="text-center py-4">
-                <img src="https://solarysustentablechile.cl/img/card1.jpeg" alt="Descripción de la imagen" style="width: 350px" class="img-fluid"> 
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingTwo">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-              Energía Solar Empresas
-            </button>
-          </h2>
-          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-              <p>El futuro de la energía es sostenible y rentable, y tu empresa puede ser parte de esa transformación. La energía solar empresarial es más que una tendencia; es una inversión inteligente que no solo reduce tus costos de energía, sino que también demuestra tu compromiso con la responsabilidad ambiental.</p>
-              <div class="text-center py-4">
-
-              <img src="https://solarysustentablechile.cl/img/card2.jpeg" alt="Descripción de la imagen" style="width: 350px" class="img-fluid"> 
-              </div>
-
-            </div>
-          </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingThree">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-            Servicio Técnico
-            </button>
-          </h2>
-          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-                <p>Como empresa comprometida con la energía solar, entendemos que tu sistema solar es fundamental para mantenerlo funcionando de manera eficiente y sostenible. Es por eso que ofrecemos un servicio técnico de primera calidad, diseñado para garantizar el máximo rendimiento y la durabilidad de tus instalaciones solares en tu residencia.</p>             
-                <div class="text-center py-4">
-
-                <img src="https://solarysustentablechile.cl/img/card2.jpeg" alt="Descripción de la imagen" style="width: 350px" class="img-fluid"> 
+        <div class="row">
+            <div class="col-md-12">
+                <div class="row bg-section justify-content-center">
+                    <div class="col-md-4 col-12 pt-3">
+                        <div class="card mx-auto" style="width: 18rem;">
+                            <img src="https://solarysustentablechile.cl/img/card1.jpeg" class="card-img-top" alt="Energía Solar Hogar">
+                            <div class="card-body">
+                                <h5 class="card-title">Energía Solar Hogar</h5>
+                                <p class="card-text">En un mundo que valora la sostenibilidad y la eficiencia energética, es hora de que tu hogar se una a la revolución solar. La energía solar no solo es amigable con el medio ambiente, sino que también te permite ahorrar dinero a largo plazo. <br><br> <br> <br></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-12 pt-3">
+                        <div class="card mx-auto" style="width: 18rem;">
+                            <img src="https://solarysustentablechile.cl/img/card2.jpeg" class="card-img-top" alt="Energía Solar Empresas">
+                            <div class="card-body">
+                                <h5 class="card-title">Energía Solar Empresas</h5>
+                                <p class="card-text">El futuro de la energía es sostenible y rentable, y tu empresa puede ser parte de esa transformación. La energía solar empresarial es más que una tendencia; es una inversión inteligente que no solo reduce tus costos de energía, sino que también demuestra tu compromiso con la responsabilidad ambiental. <br><br></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-12 pt-3">
+                        <div class="card mx-auto" style="width: 18rem;">
+                            <img src="https://solarysustentablechile.cl/img/card2.jpeg" class="card-img-top" alt="Servicio Técnico">
+                            <div class="card-body">
+                                <h5 class="card-title">Servicio Técnico</h5>
+                                <p class="card-text">Como empresa comprometida con la energía solar, entendemos que tu sistema solar es fundamental para mantenerlo funcionando de manera eficiente y sostenible. Es por eso que ofrecemos un servicio técnico de primera calidad, diseñado para garantizar el máximo rendimiento y la durabilidad de tus instalaciones solares en tu residencia.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
-          </div>
+            </div>
         </div>
-      </div>
-        </div>
-
-        <div class="col-lg-7 col-12 ">
-          <div class="row justify-content-center">
-            <div class="col-md-6 col-12 pt-5">
-              <div class="card mx-auto" style="width: 18rem;">
-                  <img src="https://solarysustentablechile.cl/img/1.png" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <p class="card-text">Asesoría gratuita.</p>
-                  </div>
-              </div>
-            </div>
-
-            <div class="col-md-6 col-12 pt-5">
-              <div class="card mx-auto" style="width: 18rem;">
-                  <img src="https://solarysustentablechile.cl/img/2.png" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <p class="card-text"> Financiamiento y cierre.</p>
-                  </div>
-              </div>
-            </div>
-
-            <div class="col-md-6 col-12 pt-5">
-              <div class="card mx-auto" style="width: 18rem;">
-                  <img src="https://solarysustentablechile.cl/img/3.png" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <p class="card-text">Visita y presupuesto final.</p>
-                  </div>
-              </div>
-            </div>
-
-            <div class="col-md-6 col-12 pt-5">
-              <div class="card mx-auto" style="width: 18rem;">
-                  <img src="https://solarysustentablechile.cl/img/4.png" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <p class="card-text">Instalación y conexión.</p>
-                  </div>
-              </div>
-            </div>
-
-            <div class="col-md-6 col-12 pt-5">
-              <div class="card mx-auto" style="width: 18rem;">
-                  <img src="https://solarysustentablechile.cl/img/5.png" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <p class="card-text">Monitoreo y mantención.</p>
-                  </div>
-              </div>
-            </div>
-          </div>
-
-          
-        </div>
-
-      </div>
     </div>
-  </div>
+</div>
+
+
+
+<div class="container-fluid">
+        <div class="container pb-5">
+            <div class="row justify-content-center">
+                <div class="col-md-4 col-12 pt-5">
+                    <div class="card mx-auto" style="width: 18rem;">
+                        <img src="https://solarysustentablechile.cl/img/1.png" class="card-img-top" alt="Asesoría gratuita">
+                        <div class="card-body">
+                            <p class="card-text">Asesoría gratuita.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-12 pt-5">
+                    <div class="card mx-auto" style="width: 18rem;">
+                        <img src="https://solarysustentablechile.cl/img/2.png" class="card-img-top" alt="Financiamiento y cierre">
+                        <div class="card-body">
+                            <p class="card-text">Financiamiento y cierre.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-12 pt-5">
+                    <div class="card mx-auto" style="width: 18rem;">
+                        <img src="https://solarysustentablechile.cl/img/3.png" class="card-img-top" alt="Visita y presupuesto final">
+                        <div class="card-body">
+                            <p class="card-text">Visita y presupuesto final.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-12 pt-5">
+                    <div class="card mx-auto" style="width: 18rem;">
+                        <img src="https://solarysustentablechile.cl/img/4.png" class="card-img-top" alt="Instalación y conexión">
+                        <div class="card-body">
+                            <p class="card-text">Instalación y conexión.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-12 pt-5">
+                    <div class="card mx-auto" style="width: 18rem;">
+                        <img src="https://solarysustentablechile.cl/img/5.png" class="card-img-top" alt="Monitoreo y mantención">
+                        <div class="card-body">
+                            <p class="card-text">Monitoreo y mantención.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+            
+
 
     <div class="container-fluid   bg-light py-5" id="pagos">
         <div class="container py-5">

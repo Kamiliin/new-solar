@@ -17,7 +17,6 @@ if ($conn->connect_error) {
     die("Conexión fallida: " . $conn->connect_error);
 }
 
-// Verificar si el formulario ha sido enviado
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Obtener datos del formulario
     $nombre = $_POST['inputNombre'];
@@ -38,15 +37,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     if ($stmt->execute() === false) {
         die('Error al ejecutar la consulta: ' . $stmt->error);
-    } else {
-        echo "Datos insertados correctamente.";
     }
 
     $stmt->close();
 
-    header('Location: /version-2thanks.php');
+    // Redirigir después de la inserción
+    header('Location: /version-2/thanks.php');
     exit();
 }
 
 $conn->close();
-?>

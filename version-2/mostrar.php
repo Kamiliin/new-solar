@@ -1,9 +1,14 @@
 <?php
 // Definir las variables de conexión a la base de datos
-$usuario  = "root";
-$password = "";
+$usuario  = "solarysu_root";
+$password = "6+pYkZd835EP)w";
 $servidor = "localhost";
-$basededatos = "solar";
+$basededatos = "solarysu_solar";
+
+#$usuario  = "root";
+#$password = "";
+#$servidor = "localhost";
+#$basededatos = "solar";
 
 // Crear conexión
 $conn = new mysqli($servidor, $usuario, $password, $basededatos);

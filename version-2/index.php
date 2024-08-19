@@ -116,41 +116,47 @@
                 <div class="col-12 col-md-5" data-aos="fade-left">
                     <div class="bg-light p-3 rounded shadow">
                         <form action="procesar_formulario.php" method="POST">
+                            <div class="text-center mb-3">
+                                <h3>Contáctanos</h3>
+                            </div>
+
                             <div class="row mb-3">
-                                <div class="text-center mb-3">
-                                    <h3>Contáctanos</h3>
-                                </div>
-                                <div class="col">
+                                <div class="col-sm-12 col-md-6 mb-3 mb-md-0">
                                     <label for="inputNombre" class="form-label">Nombre</label>
                                     <input type="text" class="form-control input-custom" id="inputNombre" name="inputNombre" placeholder="Nombre" required>
                                 </div>
-                                <div class="col">
+                                <div class="col-sm-12 col-md-6">
                                     <label for="inputApellido" class="form-label">Apellido</label>
                                     <input type="text" class="form-control input-custom" id="inputApellido" name="inputApellido" placeholder="Apellido" required>
                                 </div>
                             </div>
+
                             <div class="row mb-3">
-                                <div class="col">
+                                <div class="col-sm-12 col-md-6 mb-3 mb-md-0">
                                     <label for="inputEmail" class="form-label">Email</label>
                                     <input type="email" class="form-control input-custom" id="inputEmail" name="inputEmail" placeholder="name@example.com" required>
                                 </div>
-                                <div class="col">
+                                <div class="col-sm-12 col-md-6">
                                     <label for="inputNumero" class="form-label">Número de Contacto</label>
                                     <input type="tel" class="form-control input-custom" id="inputNumero" name="inputNumero" placeholder="Número de Contacto" required>
                                 </div>
                             </div>
+
                             <div class="mb-3">
                                 <label for="inputUbicacion" class="form-label">Ubicación</label>
                                 <input type="text" class="form-control input-custom" id="inputUbicacion" name="inputUbicacion" placeholder="Ubicación" required>
                             </div>
+
                             <div class="mb-3">
                                 <label for="exampleFormControlTextarea1" class="form-label">Comentarios</label>
                                 <textarea class="form-control input-custom" id="exampleFormControlTextarea1" name="exampleFormControlTextarea1" rows="2" required></textarea>
                             </div>
+
                             <div class="text-center">
                                 <button type="submit" class="btn btn-custom">Enviar</button>
                             </div>
                         </form>
+
                     </div>
                 </div>
             </div>

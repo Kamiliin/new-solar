@@ -38,28 +38,23 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     if ($stmt->execute() === false) {
         die('Error al ejecutar la consulta: ' . $stmt->error);
-    } else {
-        echo "Datos insertados correctamente.";
     }
 
     $stmt->close();
 
     // Enviar email
-    $para = 'kamilo.ahumada@mymarketlogic.com'; // Reemplaza con tu dirección de correo electrónico
-    $asunto = 'Nuevo contacto SOLAR';
+    $para = 'tu_correo@ejemplo.com'; // Reemplaza con tu dirección de correo electrónico
+    $asunto = 'Nuevo contacto desde el formulario';
     $mensaje = "Nombre: $nombre\nApellido: $apellido\nEmail: $email\nNúmero de Contacto: $numero_contacto\nUbicación: $ubicacion\nComentarios: $comentarios";
-    $cabeceras = "From: kamilo.ahumada@mymarketlogic.com";
+    $cabeceras = "From: no-reply@tusitio.com";
 
     if (mail($para, $asunto, $mensaje, $cabeceras)) {
-        echo "El correo se ha enviado correctamente.";
+        // Redirigir a una página de agradecimiento solo si el correo se envía correctamente
+        header('Location: /version-2thanks.php');
+        exit(); // Asegura que el script termine después de la redirección
     } else {
-        echo "Error al enviar el correo.";
+        die('Error al enviar el correo.');
     }
-
-    // Redirigir a una página de agradecimiento
-    header('Location: /version-2/thanks.php');
-    exit();
 }
 
 $conn->close();
-?>

@@ -77,7 +77,7 @@
             <div class="row">
                 <div class="col-12 col-lg-8 ">
                     <div id="content">
-                        <h1 class="display-4 hidden pb-2">¡Bienvenido a kamilo!</h1>
+                        <h1 class="display-4 hidden pb-2">¡Bienvenido a Solar y Sustentable!</h1>
                         <h3 class="no-bold">Brindamos soluciones fotovoltaicas para Empresas e Industrias. </h3>
                         <hr class="my-4 hidden">
                         <p class="hidden pb-2">Evita las alzas de precios proyectadas para este 2024.</p>

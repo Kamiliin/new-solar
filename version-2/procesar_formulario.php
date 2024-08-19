@@ -43,7 +43,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $stmt->close();
 
     // Enviar email
-    $para = 'l.a.espinozaolivares@gmail.com';
+    $para = 'kamilorbld@gmail.com';
     $asunto = 'solar y sustentable';
     $mensaje = "Nombre: $nombre\nApellido: $apellido\nEmail: $email\nNúmero de Contacto: $numero_contacto\nUbicación: $ubicacion\nComentarios: $comentarios";
     $cabeceras = "From: admin@solarysustentablechile.cl";

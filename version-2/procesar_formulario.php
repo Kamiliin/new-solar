@@ -43,15 +43,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $stmt->close();
 
     // Enviar email
-    $para = 'kamilo.ahumada@mymarketlogic.com'; // Reemplaza con tu dirección de correo electrónico
+    $para = 'kamilo.ahumada@mymarketlogic.com, l.a.espinozaolivares@gmail.com ';
     $asunto = 'solar y sustentable';
     $mensaje = "Nombre: $nombre\nApellido: $apellido\nEmail: $email\nNúmero de Contacto: $numero_contacto\nUbicación: $ubicacion\nComentarios: $comentarios";
-    $cabeceras = "From: kamilo.ahumada@mymarketlogic.com";
+    $cabeceras = "From: admin@solarysustentablechile.cl";
 
     if (mail($para, $asunto, $mensaje, $cabeceras)) {
-        // Redirigir a una página de agradecimiento solo si el correo se envía correctamente
         header('Location: /version-2/thanks.php');
-        exit(); // Asegura que el script termine después de la redirección
+        exit(); 
     } else {
         die('Error al enviar el correo.');
     }

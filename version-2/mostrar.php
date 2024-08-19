@@ -30,29 +30,57 @@ $result = $conn->query($sql);
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mostrar Registros</title>
     <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        h2 {
+            text-align: center;
+            color: #555;
+        }
+
         table {
             width: 100%;
             border-collapse: collapse;
+            margin-top: 20px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            background-color: #fff;
         }
         table, th, td {
-            border: 1px solid black;
+            border: 1px solid #ddd;
         }
         th, td {
-            padding: 8px;
+            padding: 12px;
             text-align: left;
         }
         th {
-            background-color: #f2f2f2;
+            background-color: #007bff;
+            color: white;
+            font-weight: bold;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+        .comentarios-col {
+            width: 30%; /* Ajusta este valor según lo necesites */
         }
     </style>
 </head>
 <body>
-    <h3>Registros de Contactos</h3>
+    <h2>Solar y Sustentable </h2>
+
 
     <?php
     if ($result->num_rows > 0) {
         echo "<table>";
-        echo "<tr><th>Nombre</th><th>Apellido</th><th>Email</th><th>Número de Contacto</th><th>Ubicación</th><th>Comentarios</th></tr>";
+        echo "<tr><th>Nombre</th><th>Apellido</th><th>Email</th><th>Número de Contacto</th><th>Ubicación</th><th class='comentarios-col'>Comentarios</th></tr>";
 
         while($row = $result->fetch_assoc()) {
             echo "<tr>";
@@ -61,12 +89,12 @@ $result = $conn->query($sql);
             echo "<td>" . htmlspecialchars($row["email"]) . "</td>";
             echo "<td>" . htmlspecialchars($row["numero_contacto"]) . "</td>";
             echo "<td>" . htmlspecialchars($row["ubicacion"]) . "</td>";
-            echo "<td>" . htmlspecialchars($row["comentarios"]) . "</td>";
+            echo "<td class='comentarios-col'>" . htmlspecialchars($row["comentarios"]) . "</td>";
             echo "</tr>";
         }
         echo "</table>";
     } else {
-        echo "No hay registros para mostrar.";
+        echo "<p>No hay registros para mostrar.</p>";
     }
 
     // Cerrar conexión
@@ -74,3 +102,4 @@ $result = $conn->query($sql);
     ?>
 </body>
 </html>
+

@@ -17,6 +17,7 @@ if ($conn->connect_error) {
     die("Conexión fallida: " . $conn->connect_error);
 }
 
+// Verificar si el formulario ha sido enviado
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Obtener datos del formulario
     $nombre = $_POST['inputNombre'];
@@ -26,7 +27,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $ubicacion = $_POST['inputUbicacion'];
     $comentarios = $_POST['exampleFormControlTextarea1'];
 
-    // Preparar la consulta
+    // Guardar en la base de datos
     $stmt = $conn->prepare("INSERT INTO contactos (nombre, apellido, email, numero_contacto, ubicacion, comentarios) VALUES (?, ?, ?, ?, ?, ?)");
     
     if ($stmt === false) {
@@ -37,13 +38,28 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     if ($stmt->execute() === false) {
         die('Error al ejecutar la consulta: ' . $stmt->error);
+    } else {
+        echo "Datos insertados correctamente.";
     }
 
     $stmt->close();
 
-    // Redirigir después de la inserción
+    // Enviar email
+    $para = 'kamilo.ahumada@mymarketlogic.com'; // Reemplaza con tu dirección de correo electrónico
+    $asunto = 'Nuevo contacto SOLAR';
+    $mensaje = "Nombre: $nombre\nApellido: $apellido\nEmail: $email\nNúmero de Contacto: $numero_contacto\nUbicación: $ubicacion\nComentarios: $comentarios";
+    $cabeceras = "From: kamilo.ahumada@mymarketlogic.com";
+
+    if (mail($para, $asunto, $mensaje, $cabeceras)) {
+        echo "El correo se ha enviado correctamente.";
+    } else {
+        echo "Error al enviar el correo.";
+    }
+
+    // Redirigir a una página de agradecimiento
     header('Location: /version-2/thanks.php');
     exit();
 }
 
 $conn->close();
+?>

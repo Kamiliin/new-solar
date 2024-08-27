@@ -43,10 +43,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $stmt->close();
 
     // Enviar email
-    $para = 'kamilorbld@gmail.com';
+    $para = 'admin@solarysustentablechile.cl';
     $asunto = 'solar y sustentable';
     $mensaje = "Nombre: $nombre\nApellido: $apellido\nEmail: $email\nNúmero de Contacto: $numero_contacto\nUbicación: $ubicacion\nComentarios: $comentarios";
-    $cabeceras = "From: kamilorbld@gmail.com";
+    $cabeceras = "From: admin@solarysustentablechile.cl";
 
     if (mail($para, $asunto, $mensaje, $cabeceras)) {
         header('Location: /version-2/thanks.php');

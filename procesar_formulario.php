@@ -46,7 +46,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $para = 'admin@solarysustentablechile.cl';
     $asunto = 'solar y sustentable';
     $mensaje = "Nombre: $nombre\nApellido: $apellido\nEmail: $email\nNúmero de Contacto: $numero_contacto\nUbicación: $ubicacion\nComentarios: $comentarios";
-    $cabeceras = "From: kamilo.ahumada@mymarketlogic.com";
+    $cabeceras = "From: admin@solarysustentablechile.cl";
 
     if (mail($para, $asunto, $mensaje, $cabeceras)) {
         header('Location: /thanks.php');

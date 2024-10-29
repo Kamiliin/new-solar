@@ -18,7 +18,7 @@
     <meta property="og:description" content="Empresa comprometida con el medio ambiente, entrega de energía solar con tecnología de calidad. Contamos con profesionales en ingeniería, comercial, operaciones, soporte y contabilidad."> 
     <meta property="og:image" content="https://solarysustentablechile.cl/img/card1.jpeg">
     <meta property="og:url" content="https://solarysustentablechile.cl/index.html"> 
-    <link rel="stylesheet" href="/style.css?v1">
+    <link rel="stylesheet" href="/style.css?v2">
 
     <!-- Google tag (gtag.js) event - delayed navigation helper -->
     <script>

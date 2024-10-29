@@ -155,7 +155,7 @@
                         <li class="pt-3">Paga las cuotas del financiamiento con el ahorro de tu cuenta de luz.</li>
                     </ol>
                 </div>
-                <div class="col-12 col-md-5" data-aos="fade-left">
+                <div class="col-12 col-md-5" data-aos="">
                     <div class="bg-light p-3 rounded shadow">
                         <form action="procesar_formulario.php" method="POST">
                             <div class="text-center mb-3">

@@ -33,13 +33,53 @@ body{
     color: #fff; 
 
 }
+@media (max-width: 767px) {
+  /* Contenedor de la navbar en dos filas */
+  .navbar .container {
+      display: flex;
+      flex-direction: column; /* Divide en dos filas */
+      align-items: center; /* Centra todos los elementos */
+      max-width: 90%; /* Ajusta el ancho máximo según lo necesites */
+      margin: 0 auto; /* Centra el contenedor */
+  }
 
+  /* Logo centrado en la fila superior */
+  .navbar-brand {
+      margin-bottom: 10px; /* Espacio entre el logo y el menú */
+  }
 
-@media (max-width: 400px) {
-  .banner {
-      background-size: contain;
-      padding-top: 150px;
-      padding-bottom: 100px;
+  /* Ajustar el tamaño del logo en móvil */
+  .navbar-brand img {
+      width: 130px; /* Ajusta según sea necesario */
+  }
+
+  /* Centrar el botón de menú */
+  .navbar-toggler {
+      align-self: center; /* Alinea el botón al centro */
+      margin-bottom: 10px; /* Espacio entre el botón y el menú */
+      padding: 8px; /* Ajusta el tamaño del botón */
+  }
+
+  /* Ajuste de espacio en los elementos del menú */
+  .navbar-nav {
+      text-align: center; /* Centra los enlaces del menú */
+      width: 100%; /* Asegura que ocupe el ancho completo */
+  }
+
+  .navbar-nav .nav-item {
+      padding: 0;
+      margin: 0;
+  }
+
+  .navbar-nav .nav-link {
+      padding: 8px 5px; /* Menor padding en los enlaces */
+      font-size: 14px;
+  }
+
+  /* Ajuste en el desplegable */
+  .navbar-nav .dropdown-menu {
+      padding: 0;
+      margin: 0;
   }
 }
 

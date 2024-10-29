@@ -75,7 +75,7 @@
   <body>
 
 
-    <header>
+  <header>
         <nav class="navbar navbar-expand-lg fixed-top bg-dark">
             <div class="container">
                 <a class="navbar-brand pb-3" href="#"><img style="width:250px" src="https://solarysustentablechile.cl/img/logonav.png"
@@ -111,8 +111,7 @@
                 </div>
             </div>
         </nav>
-    </header>
-
+  </header>
 
  <!-- comienzo portada  -->
 
@@ -399,9 +398,6 @@
   </footer>
 
   <!-- WhatsApp Icon Floating -->
-<a href="https://wa.me/56951906473" class="whatsapp-float" target="_blank">
-    <i class="fa fa-whatsapp my-float"></i>
-</a>
 
     
 <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>

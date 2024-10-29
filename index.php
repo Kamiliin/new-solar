@@ -397,9 +397,11 @@
     </div>
   </footer>
 
-  <!-- WhatsApp Icon Floating -->
 
-    
+    <!-- WhatsApp Icon Floating -->
+    <a href="https://wa.me/56951906473" class="whatsapp-float" target="_blank">
+        <i class="fa fa-whatsapp my-float"></i>
+    </a>
 <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
 

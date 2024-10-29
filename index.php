@@ -75,7 +75,7 @@
   <body>
 
 
-  <header>
+    <header>
         <nav class="navbar navbar-expand-lg fixed-top bg-dark">
             <div class="container">
                 <a class="navbar-brand pb-3" href="#"><img style="width:250px" src="https://solarysustentablechile.cl/img/logonav.png"
@@ -111,7 +111,8 @@
                 </div>
             </div>
         </nav>
-  </header>
+    </header>
+
 
  <!-- comienzo portada  -->
 
@@ -155,7 +156,7 @@
                         <li class="pt-3">Paga las cuotas del financiamiento con el ahorro de tu cuenta de luz.</li>
                     </ol>
                 </div>
-                <div class="col-12 col-md-5" data-aos="">
+                <div class="col-12 col-md-5" data-aos=""> <!--fade-left-->
                     <div class="bg-light p-3 rounded shadow">
                         <form action="procesar_formulario.php" method="POST">
                             <div class="text-center mb-3">
@@ -191,7 +192,7 @@
 
                             <div class="mb-3">
                                 <label for="exampleFormControlTextarea1" class="form-label">Comentarios</label>
-                                <textarea class="form-control input-custom" id="exampleFormControlTextarea1" placeholder="¿En qué te puedo ayudar?" name="exampleFormControlTextarea1" rows="2" required></textarea>
+                                <textarea class="form-control input-custom" id="exampleFormControlTextarea1" name="exampleFormControlTextarea1" rows="2" required></textarea>
                             </div>
 
                             <div class="text-center">
@@ -397,11 +398,12 @@
     </div>
   </footer>
 
+  <!-- WhatsApp Icon Floating -->
+<a href="https://wa.me/56951906473" class="whatsapp-float" target="_blank">
+    <i class="fa fa-whatsapp my-float"></i>
+</a>
 
-    <!-- WhatsApp Icon Floating -->
-    <a href="https://wa.me/56951906473" class="whatsapp-float" target="_blank">
-        <i class="fa fa-whatsapp my-float"></i>
-    </a>
+    
 <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
 

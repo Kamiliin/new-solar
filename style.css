@@ -34,6 +34,15 @@ body{
 
 }
 
+
+@media (max-width: 400px) {
+  .banner {
+      background-size: contain;
+      padding-top: 150px;
+      padding-bottom: 100px;
+  }
+}
+
 .no-bold {
     font-weight: normal; 
   }

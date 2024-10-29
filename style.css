@@ -3,8 +3,6 @@ body{
   background-color: black;
 }
 
-
- 
   
 
 .input-custom {
@@ -27,7 +25,7 @@ body{
 }
 
 .banner {
-    background-image: url('/version-2/paneles-solares.png');
+    background-image: url('/img/paneles-solares.png');
     background-size: cover;
     background-position: center;
     padding-top: 250px;
@@ -266,4 +264,13 @@ body{
 
 .card-body {
   text-align: center;
+}
+
+.social-link img {
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.social-link:hover img {
+  transform: scale(1.1);
+  opacity: 0.8;
 }

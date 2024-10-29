@@ -9,7 +9,7 @@ header("refresh: 8; url=index.php");
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Muchas gracias</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="/version-2/style.css">
+    <link rel="stylesheet" href="/style.css">
    </head>
   <body>
 
@@ -49,40 +49,42 @@ header("refresh: 8; url=index.php");
         <div class="col-md-4 mb-3 pt-3 ps-lg-5">
           <h5 >SERVICIOS</h5>
           <ul class="list-unstyled">
-            <li><a href="#" class="text-white fs-6">Kit Solares</a></li>
-            <li><a href="#" class="text-white">Energía solar</a></li>
-            <li><a href="#" class="text-white">Hogar</a></li>
-            <li><a href="#" class="text-white">Energía solar empresas</a></li>
-            <li><a href="#" class="text-white">Servicio técnico</a></li>
+            <li><a href="/index.php" class="text-white">Home</a></li>
+            <li><a href="/kit-solares.php" class="text-white fs-6">Kit Solares</a></li>
+            <li><a href="/empresa.php" class="text-white">Quiénes Somos</a></li>
+            <li><a href="#pagos" class="text-white">Pagos On Line</a></li>
 
           </ul>
         </div>
         <div class="col-md-4 pt-3 mb-3">
           <h5>NOSOTROS</h5>
           <ul class="list-unstyled">
-            <li><i class="fas h4 fa-map-marker-alt"></i> Dirección: Valparaiso, Viña Del Mar Chile            </li>
-            <li><i class="fas h4 fa-phone"></i> Teléfono: +569 51906473            </li>
-            <li><i class="fas h4 fa-envelope"></i> Email: solarysustentable.91@gmail.com            </li>
+            <li><i class="fas h4 "></i> Dirección: Valparaiso, Viña Del Mar Chile</li>
+            <li><i class="fas h4 "></i> Teléfono: +569-51906473</li>
+            <li><i class="fas h4 "></i> Email: admin@solarysustentablechile.cl</li>
           </ul>
-          <div class="mt-3">
-            <a href="#" class="text-white mr-3"><i class="fab fa-facebook-f"></i></a>
-            <a href="#" class="text-white mr-3"><i class="fab fa-instagram"></i></a>
-            <a href="#" class="text-white"><i class="fab fa-whatsapp"></i></a>
-          </div>
+          
         </div>
       </div>
       <div class="row">
-        <div class="col-12 text-center">
-          <p>&copy; 2024 solarysustentablechile. Todos los derechos reservados.</p>
-          <div class="d-flex justify-content-center mt-3">
-            <img src="https://via.placeholder.com/150" alt="Facebook" class="mx-2" style="width: 30px; height: 30px;">
-            <img src="https://via.placeholder.com/150" alt="Instagram" class="mx-2" style="width: 30px; height: 30px;">
-            <img src="https://via.placeholder.com/150" alt="WhatsApp" class="mx-2" style="width: 30px; height: 30px;">
-          </div>
+            <div class="col-12 text-center">
+                <p>&copy; 2024 solarysustentablechile. Todos los derechos reservados.</p>
+                <div class="d-flex justify-content-center mt-3">
+                <a href="https://web.facebook.com/profile.php?id=61552557989832&mibextid=2JQ9oc&_rdc=1&_rdr" target="_blank" class="social-link">
+                    <img src="https://solarysustentablechile.cl/img/face.png" alt="Facebook" class="mx-2" style="width: 20px; height: 30px;">
+                </a>
+                <a href="https://www.instagram.com/solarysustentable/" target="_blank" class="social-link">
+                    <img src="https://solarysustentablechile.cl/img/int.png" alt="Instagram" class="mx-2" style="width: 30px; height: 30px;">
+                </a>
+                <a href="https://wa.me/56951906473" target="_blank" class="social-link">
+                    <img src="https://solarysustentablechile.cl/img/wt.png" alt="WhatsApp" class="mx-2" style="width: 30px; height: 30px;">
+                </a>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
   </footer>
+
 
 
 

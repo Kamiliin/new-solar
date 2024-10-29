@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
-    <link rel="stylesheet" href="/version-2//style.css">
+    <link rel="stylesheet" href="/style.css">
     <style>
  
     #accordionExample {
@@ -42,17 +42,17 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item px-3">
-                            <a class="nav-link" href="/version-2/index.php" role="button" aria-expanded="false">
+                            <a class="nav-link" href="/index.php" role="button" aria-expanded="false">
                                 Inicio
                             </a>
                         </li>
                         <li class="nav-item px-3">
-                            <a class="nav-link" href="/version-2/kit-solares.php" role="button" aria-expanded="false">
+                            <a class="nav-link" href="/kit-solares.php" role="button" aria-expanded="false">
                                 Kit Solares
                             </a>
                         </li>
                         <li class="nav-item px-3">
-                            <a class="nav-link" href="/version-2/empresa.php" role="button" aria-expanded="false">
+                            <a class="nav-link" href="/empresa.php" role="button" aria-expanded="false">
                             Quiénes Somos
                             </a>
                         </li>
@@ -109,7 +109,7 @@
             </div>
 
             <div class=" col-12 col-md-6 py-5 d-flex justify-content-center align-items-center">
-                <img src="/version-2/img/mesa-trabajo.jpg" alt="" class="img-fluid">
+                <img src="/img/mesa-trabajo.jpg" alt="" class="img-fluid">
             </div>
         </div>
     </div>
@@ -124,7 +124,7 @@
             <p class="pt-4">Impulsar energía limpia y renovable con la mejor tecnología fotovoltaica en Chile, ofreciendo a nuestros clientes una experiencia simple, pero de calidad, con la mejor tecnología, monitoreo en tiempo real y un servicio postventa. </p>
             <div class="pt-5 mb-5 d-flex justify-content-center align-items-center">
 
-                <img src="/version-2/img/carrusel2.jpeg" alt="" class="img-fluid">
+                <img src="/img/carrusel2.jpeg" alt="" class="img-fluid">
 
             </div>
         </div>
@@ -173,27 +173,13 @@
         <div class="row">
             <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
                   <img
-                    src="/version-2/img/1-472x708.png"
+                    src="/img/1-472x708.png"
                     class="w-100 shadow-1-strong rounded mb-4"
                     alt=""
                   />
 
                   <img
-                    src="/version-2/img/collage-1.png"
-                    class="w-100 shadow-1-strong rounded mb-4"
-                    alt=""
-                  />
-            </div>
-
-            <div class="col-lg-4 mb-4 mb-lg-0">
-                  <img
-                    src="/version-2/img/collage-2.png"
-                    class="w-100 shadow-1-strong rounded mb-4"
-                    alt=""
-                  />
-
-                  <img
-                    src="/version-2/img/2-472x708.png"
+                    src="/img/collage-1.png"
                     class="w-100 shadow-1-strong rounded mb-4"
                     alt=""
                   />
@@ -201,13 +187,27 @@
 
             <div class="col-lg-4 mb-4 mb-lg-0">
                   <img
-                    src="/version-2/img/3-472x708.png"
+                    src="/img/collage-2.png"
                     class="w-100 shadow-1-strong rounded mb-4"
                     alt=""
                   />
 
                   <img
-                    src="/version-2/img/collage-3.png"
+                    src="/img/2-472x708.png"
+                    class="w-100 shadow-1-strong rounded mb-4"
+                    alt=""
+                  />
+            </div>
+
+            <div class="col-lg-4 mb-4 mb-lg-0">
+                  <img
+                    src="/img/3-472x708.png"
+                    class="w-100 shadow-1-strong rounded mb-4"
+                    alt=""
+                  />
+
+                  <img
+                    src="/img/collage-3.png"
                     class="w-100 shadow-1-strong rounded mb-4"
                     alt=""
                   />
@@ -275,39 +275,44 @@
         <div class="col-md-4 mb-3 pt-3 ps-lg-5">
           <h5 >SERVICIOS</h5>
           <ul class="list-unstyled">
-            <li><a href="#" class="text-white fs-6">Kit Solares</a></li>
-            <li><a href="#" class="text-white">Energía solar</a></li>
-            <li><a href="#" class="text-white">Hogar</a></li>
-            <li><a href="#" class="text-white">Energía solar empresas</a></li>
-            <li><a href="#" class="text-white">Servicio técnico</a></li>
+            <li><a href="/index.php" class="text-white">Home</a></li>
+            <li><a href="/kit-solares.php" class="text-white fs-6">Kit Solares</a></li>
+            <li><a href="/empresa.php" class="text-white">Quiénes Somos</a></li>
+            <li><a href="#pagos" class="text-white">Pagos On Line</a></li>
 
           </ul>
         </div>
         <div class="col-md-4 pt-3 mb-3">
           <h5>NOSOTROS</h5>
           <ul class="list-unstyled">
-            <li><i class="fas h4 "></i> Dirección: Valparaiso, Viña Del Mar Chile            </li>
-            <li><i class="fas h4 "></i> Teléfono: +569 51906473            </li>
-            <li><i class="fas h4 "></i> Email: solarysustentable.91@gmail.com            </li>
+            <li><i class="fas h4 "></i> Dirección: Valparaiso, Viña Del Mar Chile</li>
+            <li><i class="fas h4 "></i> Teléfono: +569-51906473</li>
+            <li><i class="fas h4 "></i> Email: admin@solarysustentablechile.cl</li>
           </ul>
           
         </div>
       </div>
       <div class="row">
-        <div class="col-12 text-center">
-          <p>&copy; 2024 solarysustentablechile. Todos los derechos reservados.</p>
-          <div class="d-flex justify-content-center mt-3">
-            <img src="https://solarysustentablechile.cl/img/face.png" alt="Facebook" class="mx-2" style="width: 20px; height: 30px;">
-            <img src="https://solarysustentablechile.cl/img/int.png" alt="Instagram" class="mx-2" style="width: 30px; height: 30px;">
-            <img src="https://solarysustentablechile.cl/img/wt.png" alt="WhatsApp" class="mx-2" style="width: 30px; height: 30px;">
-          </div>
+            <div class="col-12 text-center">
+                <p>&copy; 2024 solarysustentablechile. Todos los derechos reservados.</p>
+                <div class="d-flex justify-content-center mt-3">
+                <a href="https://web.facebook.com/profile.php?id=61552557989832&mibextid=2JQ9oc&_rdc=1&_rdr" target="_blank" class="social-link">
+                    <img src="https://solarysustentablechile.cl/img/face.png" alt="Facebook" class="mx-2" style="width: 20px; height: 30px;">
+                </a>
+                <a href="https://www.instagram.com/solarysustentable/" target="_blank" class="social-link">
+                    <img src="https://solarysustentablechile.cl/img/int.png" alt="Instagram" class="mx-2" style="width: 30px; height: 30px;">
+                </a>
+                <a href="https://wa.me/56951906473" target="_blank" class="social-link">
+                    <img src="https://solarysustentablechile.cl/img/wt.png" alt="WhatsApp" class="mx-2" style="width: 30px; height: 30px;">
+                </a>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
   </footer>
 
     <!-- WhatsApp Icon Floating -->
-    <a href="https://wa.me/tu-numero?text=Hola" class="whatsapp-float" target="_blank">
+    <a href="https://wa.me/56951906473" class="whatsapp-float" target="_blank">
         <i class="fa fa-whatsapp my-float"></i>
     </a>
 

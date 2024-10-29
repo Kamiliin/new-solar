@@ -8,19 +8,19 @@
     </url>
 
     <url>
-        <loc>https://solarysustentablechile.cl/kitsolares.html</loc>
+        <loc>https://solarysustentablechile.cl/kitsolares.php</loc>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://solarysustentablechile.cl/empresas.html</loc>
+        <loc>https://solarysustentablechile.cl/empresas.php</loc>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://solarysustentablechile.cl/hogar.html</loc>
+        <loc>https://solarysustentablechile.cl/hogar.php</loc>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>

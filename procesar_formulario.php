@@ -1,13 +1,13 @@
 <?php
-$usuario  = "solarysu_root";
-$password = "6+pYkZd835EP)w";
-$servidor = "localhost";
-$basededatos = "solarysu_solar";
-
-#$usuario  = "root";
-#$password = "";
+#$usuario  = "solarysu_root";
+#$password = "6+pYkZd835EP)w";
 #$servidor = "localhost";
-#$basededatos = "solar";
+#$basededatos = "solarysu_solar";
+
+$usuario  = "root";
+$password = "";
+$servidor = "localhost";
+$basededatos = "solar";
 
 // Crear conexión
 $conn = new mysqli($servidor, $usuario, $password, $basededatos);
@@ -49,7 +49,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $cabeceras = "From: kamilo.ahumada@mymarketlogic.com";
 
     if (mail($para, $asunto, $mensaje, $cabeceras)) {
-        header('Location: /version-2/thanks.php');
+        header('Location: /thanks.php');
         exit(); 
     } else {
         die('Error al enviar el correo.');

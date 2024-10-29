@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Solar</title>
+    <title>Solar y sustentable</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="preload" href="https://solarysustentablechile.cl/img/logonav.png" as="image">
     <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" as="script">
@@ -11,9 +11,53 @@
     <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
     <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="/img/logofooter.png">
+    <meta name="description" content="Empresa dedicada a la instalación y mantención de paneles solares fotovoltaicos con altos estándares de calidad. Comprometidos con el medio ambiente y la entrega de un servicio de excelencia.">
+    <meta name="keywords" content="paneles solares, energía solar, instalación de paneles solares, mantención de paneles solares, energía renovable, solarysustentablechile,sostenibilidad, medio ambiente, tecnología fotovoltaica, servicios solares, ingeniería solar, energías limpias, conciencia ambiental, calidad en productos solares">
+    <meta property="og:title" content="Instalación y Mantención de Paneles Solares Fotovoltaicos - Solar y sustentable">
+    <meta property="og:description" content="Empresa comprometida con el medio ambiente, entrega de energía solar con tecnología de calidad. Contamos con profesionales en ingeniería, comercial, operaciones, soporte y contabilidad."> 
+    <meta property="og:image" content="https://solarysustentablechile.cl/img/card1.jpeg">
+    <meta property="og:url" content="https://solarysustentablechile.cl/index.html"> 
+    <link rel="stylesheet" href="/style.css?v1">
 
+    <!-- Google tag (gtag.js) event - delayed navigation helper -->
+    <script>
+    // Helper function to delay opening a URL until a gtag event is sent.
+    // Call it in response to an action that should navigate to a URL.
+    function gtagSendEvent(url) {
+        var callback = function () {
+        if (typeof url === 'string') {
+            window.location = url;
+        }
+        };
+        gtag('event', 'conversion_event_purchase_1', {
+        'event_callback': callback,
+        'event_timeout': 2000,
+        // <event_parameters>
+        });
+        return false;
+    }
+    </script>    
+        <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-43WMWBK55L"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-    <link rel="stylesheet" href="/version-2/style.css?v1">
+    gtag('config', 'G-43WMWBK55L');
+    </script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y0LPJ4LP48">
+    </script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-Y0LPJ4LP48');
+    </script>
+
     <style>
  
     #accordionExample {
@@ -43,17 +87,17 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item px-3">
-                            <a class="nav-link" href="/version-2/index.php" role="button" aria-expanded="false">
+                            <a class="nav-link" href="/index.php" role="button" aria-expanded="false">
                                 Inicio
                             </a>
                         </li>
                         <li class="nav-item px-3">
-                            <a class="nav-link" href="/version-2/kit-solares.php" role="button" aria-expanded="false">
+                            <a class="nav-link" href="/kit-solares.php" role="button" aria-expanded="false">
                                 Kit Solares
                             </a>
                         </li>
                         <li class="nav-item px-3">
-                            <a class="nav-link" href="/version-2/empresa.php" role="button" aria-expanded="false">
+                            <a class="nav-link" href="/empresa.php" role="button" aria-expanded="false">
                             Quiénes Somos
                             </a>
                         </li>
@@ -82,17 +126,16 @@
                         <hr class="my-4 hidden">
                         <p class="hidden pb-2">Evita las alzas de precios proyectadas para este 2024.</p>
                        <p class="lead">
-    <a class="btn btn-custom btn-lg" href="#formulario-contacto" role="button">Saber Más</a>
-</p>
-
-<script>
-    document.querySelector('.btn-custom').addEventListener('click', function(e) {
-        e.preventDefault();
-        document.querySelector('#formulario-contacto').scrollIntoView({ 
-            behavior: 'smooth' 
-        });
-    });
-</script>
+                            <a class="btn btn-custom btn-lg" href="#formulario-contacto" role="button">Saber Más</a>
+                        </p>
+                        <script>
+                            document.querySelector('.btn-custom').addEventListener('click', function(e) {
+                                e.preventDefault();
+                                document.querySelector('#formulario-contacto').scrollIntoView({ 
+                                    behavior: 'smooth' 
+                                });
+                            });
+                        </script>
                       </div>
                 </div>
             </div>
@@ -138,7 +181,7 @@
                                 </div>
                                 <div class="col-sm-12 col-md-6">
                                     <label for="inputNumero" class="form-label">Número de Contacto</label>
-                                    <input type="tel" class="form-control input-custom" id="inputNumero" name="inputNumero" placeholder="Número de Contacto" required>
+                                    <input type="tel" class="form-control input-custom" id="inputNumero" name="inputNumero" placeholder="Número de Contacto" pattern="[0-9]+" required>
                                 </div>
                             </div>
 
@@ -149,7 +192,7 @@
 
                             <div class="mb-3">
                                 <label for="exampleFormControlTextarea1" class="form-label">Comentarios</label>
-                                <textarea class="form-control input-custom" id="exampleFormControlTextarea1" name="exampleFormControlTextarea1" rows="2" required></textarea>
+                                <textarea class="form-control input-custom" id="exampleFormControlTextarea1" placeholder="¿En qué te puedo ayudar?" name="exampleFormControlTextarea1" rows="2" required></textarea>
                             </div>
 
                             <div class="text-center">
@@ -319,39 +362,44 @@
         <div class="col-md-4 mb-3 pt-3 ps-lg-5">
           <h5 >SERVICIOS</h5>
           <ul class="list-unstyled">
-            <li><a href="#" class="text-white fs-6">Kit Solares</a></li>
-            <li><a href="#" class="text-white">Energía solar</a></li>
-            <li><a href="#" class="text-white">Hogar</a></li>
-            <li><a href="#" class="text-white">Energía solar empresas</a></li>
-            <li><a href="#" class="text-white">Servicio técnico</a></li>
+            <li><a href="/index.php" class="text-white">Home</a></li>
+            <li><a href="/kit-solares.php" class="text-white fs-6">Kit Solares</a></li>
+            <li><a href="/empresa.php" class="text-white">Quiénes Somos</a></li>
+            <li><a href="#pagos" class="text-white">Pagos On Line</a></li>
 
           </ul>
         </div>
         <div class="col-md-4 pt-3 mb-3">
           <h5>NOSOTROS</h5>
           <ul class="list-unstyled">
-            <li><i class="fas h4 "></i> Dirección: Valparaiso, Viña Del Mar Chile            </li>
-            <li><i class="fas h4 "></i> Teléfono: +569 51906473            </li>
-            <li><i class="fas h4 "></i> Email: solarysustentable.91@gmail.com            </li>
+            <li><i class="fas h4 "></i> Dirección: Valparaiso, Viña Del Mar Chile</li>
+            <li><i class="fas h4 "></i> Teléfono: +569-51906473</li>
+            <li><i class="fas h4 "></i> Email: admin@solarysustentablechile.cl</li>
           </ul>
           
         </div>
       </div>
-      <div class="row">
-        <div class="col-12 text-center">
-          <p>&copy; 2024 solarysustentablechile. Todos los derechos reservados.</p>
-          <div class="d-flex justify-content-center mt-3">
-            <img src="https://solarysustentablechile.cl/img/face.png" alt="Facebook" class="mx-2" style="width: 20px; height: 30px;">
-            <img src="https://solarysustentablechile.cl/img/int.png" alt="Instagram" class="mx-2" style="width: 30px; height: 30px;">
-            <img src="https://solarysustentablechile.cl/img/wt.png" alt="WhatsApp" class="mx-2" style="width: 30px; height: 30px;">
-          </div>
+        <div class="row">
+            <div class="col-12 text-center">
+                <p>&copy; 2024 solarysustentablechile. Todos los derechos reservados.</p>
+                <div class="d-flex justify-content-center mt-3">
+                <a href="https://web.facebook.com/profile.php?id=61552557989832&mibextid=2JQ9oc&_rdc=1&_rdr" target="_blank" class="social-link">
+                    <img src="https://solarysustentablechile.cl/img/face.png" alt="Facebook" class="mx-2" style="width: 20px; height: 30px;">
+                </a>
+                <a href="https://www.instagram.com/solarysustentable/" target="_blank" class="social-link">
+                    <img src="https://solarysustentablechile.cl/img/int.png" alt="Instagram" class="mx-2" style="width: 30px; height: 30px;">
+                </a>
+                <a href="https://wa.me/56951906473" target="_blank" class="social-link">
+                    <img src="https://solarysustentablechile.cl/img/wt.png" alt="WhatsApp" class="mx-2" style="width: 30px; height: 30px;">
+                </a>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
   </footer>
 
   <!-- WhatsApp Icon Floating -->
-<a href="https://wa.me/tu-numero?text=Hola" class="whatsapp-float" target="_blank">
+<a href="https://wa.me/56951906473" class="whatsapp-float" target="_blank">
     <i class="fa fa-whatsapp my-float"></i>
 </a>
 

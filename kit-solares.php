@@ -89,7 +89,7 @@
     <div class="container mt-5">
 
     <div class="row">
-        <div class="col-lg-6 mb-4" data-aos="fade-right">
+        <div class="col-lg-6 mb-4" data-aos="">
             <div class="card h-100 bg-cards">
                 <div class="d-flex flex-lg-row flex-column align-items-lg-center">
                     <img src="https://solarysustentablechile.cl/img/kit-01.jpeg" class="card-img-top w-50 mx-auto mx-lg-0" alt="Card image">
@@ -108,7 +108,7 @@
             </div>
         </div>
 
-        <div class="col-lg-6 mb-4" data-aos="fade-left">
+        <div class="col-lg-6 mb-4" data-aos="">
             <div class="card h-100 bg-cards">
                 <div class="d-flex flex-lg-row flex-column align-items-lg-center">
                     <img src="https://solarysustentablechile.cl/img/kit-02.jpeg" class="card-img-top w-50 mx-auto mx-lg-0" alt="Card image">
@@ -129,7 +129,7 @@
     </div>
 
     <div class="row">
-        <div class="col-lg-6 mb-4" data-aos="fade-right">
+        <div class="col-lg-6 mb-4" data-aos="">
             <div class="card h-100 bg-cards">
                 <div class="d-flex flex-lg-row flex-column align-items-lg-center">
                     <img src="https://solarysustentablechile.cl/img/kit-03.jpeg" class="card-img-top w-50 mx-auto mx-lg-0" alt="Card image">
@@ -148,7 +148,7 @@
             </div>
         </div>
 
-        <div class="col-lg-6 mb-4" data-aos="fade-left">
+        <div class="col-lg-6 mb-4" data-aos="">
             <div class="card h-100 bg-cards">
                 <div class="d-flex flex-lg-row flex-column align-items-lg-center">
                     <img src="https://solarysustentablechile.cl/img/kit-04.jpeg" class="card-img-top w-50 mx-auto mx-lg-0" alt="Card image">
@@ -169,7 +169,7 @@
     </div>
 
     <div class="row">
-        <div class="col-lg-6 mb-4" data-aos="fade-right">
+        <div class="col-lg-6 mb-4" data-aos="">
             <div class="card h-100 bg-cards">
                 <div class="d-flex flex-lg-row flex-column align-items-lg-center">
                     <img src="https://solarysustentablechile.cl/img/kit-06.jpeg" class="card-img-top w-50 mx-auto mx-lg-0" alt="Card image">
@@ -188,7 +188,7 @@
             </div>
         </div>
 
-        <div class="col-lg-6 mb-4" data-aos="fade-left">
+        <div class="col-lg-6 mb-4" data-aos="">
             <div class="card h-100 bg-cards">
                 <div class="d-flex flex-lg-row flex-column align-items-lg-center">
                     <img src="https://solarysustentablechile.cl/img/kit-06.jpeg" class="card-img-top w-50 mx-auto mx-lg-0" alt="Card image">
@@ -209,7 +209,7 @@
     </div>
 
     <div class="row">
-        <div class="col-lg-6 mb-4" data-aos="fade-right">
+        <div class="col-lg-6 mb-4" data-aos="">
             <div class="card h-100 bg-cards">
                 <div class="d-flex flex-lg-row flex-column align-items-lg-center">
                     <img src="https://solarysustentablechile.cl/img/kit-07.jpeg" class="card-img-top w-50 mx-auto mx-lg-0" alt="Card image">
@@ -228,7 +228,7 @@
             </div>
         </div>
 
-        <div class="col-lg-6 mb-4" data-aos="fade-left">
+        <div class="col-lg-6 mb-4" data-aos="">
             <div class="card h-100 bg-cards">
                 <div class="d-flex flex-lg-row flex-column align-items-lg-center">
                     <img src="https://solarysustentablechile.cl/img/kit-08.jpeg" class="card-img-top w-50 mx-auto mx-lg-0" alt="Card image">

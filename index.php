@@ -58,6 +58,16 @@
     gtag('config', 'G-Y0LPJ4LP48');
     </script>
 
+    <!-- Google tag (gtag.js) new -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-11534501840"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'AW-11534501840');
+</script>
+
+
     <style>
  
     #accordionExample {

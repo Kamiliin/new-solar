@@ -13,6 +13,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="icon" href="/img/logofooter.png">
 
+    <!-- Google tag (gtag.js) new -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11534501840"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'AW-11534501840');
+</script>
 
     <link rel="stylesheet" href="/style.css">
     <style>
